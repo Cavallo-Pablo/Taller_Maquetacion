@@ -23,12 +23,20 @@ body {
 }
 
 .contenedor-central {
+
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.contenedor-central,.contenedor-enlaces{
+    background-image: url(../Imagen/fondo.jpg);
+    
+    position: sticky;
+    top: 0;
+}
 
 .contenedor-enlaces {
+
     display: flex;
     flex-direction: row;
     justify-content: center;
