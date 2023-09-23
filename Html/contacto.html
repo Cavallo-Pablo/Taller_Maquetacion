@@ -30,6 +30,9 @@
             <div class="campos">
                 <label for="nombre">Nombre</label>
                 <input type="text" name="" id="nombre" placeholder="Ingrese un nombre ..." required>
+
+
+
             </div>
             <div class="campos">
                 <label for="asunto">Asunto</label>
@@ -53,7 +56,7 @@
             <legend>Pais</legend>
             <div class="paises">
                 <label for="">Paises</label>
-                <select name="paises" id="">
+                <select name="paises" id="" required>
                     <option value="">--Seleccione un pais--</option>
                     <option value="ar">Argentina</option>
                     <option value="br">Brasil</option>
@@ -84,7 +87,7 @@
         </fieldset>
         <div class="contenedor-central">
 
-            <input type="submit" name="submit" id="enviar" value="Enviar formulario" >
+            <input type="submit" name="submit" id="enviar" value="Enviar formulario">
         </div>
     </form>
     <script src="../Js/script.js"></script>
@@ -116,6 +119,14 @@
         </nav>
     </footer>
     <hr>
+    <script type="Module" src="../Js/script.js"></script>
+    <script>
+
+        function imprimirEnConsola() {
+            var contactoNombre = document.getElementById("nombre").value;
+            console.log("El valor del input es: " + contactoNombre);
+        }
+    </script>
 </body>
 
 </html>
