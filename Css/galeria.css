@@ -1,0 +1,111 @@
+@import url(../Css/global.css);
+
+.contenedor-central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-articulos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: .4rem;
+    column-gap: 1rem;
+    width: 120%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.listado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articulo {
+    transition-duration: .4s;
+
+}
+
+.articulo:hover {
+    filter: sepia(70%);
+    border: .5rem solid #6e681386;
+
+}
+
+.contenedor-central2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+
+}
+
+.contenedor-central2 h3 {
+    text-align: center;
+}
+
+.contenedor-nav {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.navegador {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.enlace {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.articulo img {
+    object-fit: cover;
+    width: 100%;
+    height: 10rem;
+    border: .2rem outset rgb(221, 207, 5);
+
+}
+
+.contenedor-enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor-enlaces a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    /*     color: rgb(129, 108, 206); */
+    font-style: bold;
+}
+
+.contenedor-central2 a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(6, 1, 27);
+    font-style: bold;
+
+}
+
+.enlace {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    width: 70%;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/global.css">
+    <link rel="stylesheet" href="../Css/contacto.css">
+    <title>Tienda de muebles</title>
+</head>
+
+<body>
+    <header class="contenedor-central">
+        <h1>Contacto</h1>
+    </header>
+    <hr>
+    <nav class="contenedor-enlaces">
+        <div class="enlace">
+            <a href="../principal.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galeria</a>
+        </div>
+    </nav>
+    <hr>
+    <form action="">
+        <fieldset class="contacto">
+            <legend>Tus datos</legend>
+            <div class="campos">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="" id="nombre" placeholder="Ingrese un nombre ..." required>
+            </div>
+            <div class="campos">
+                <label for="asunto">Asunto</label>
+                <input type="text" name="" id="asunto" placeholder="Ingrese un asunto ..." required>
+            </div>
+            <div class="campos">
+                <label for="email">E - mail</label>
+                <input type="email" name="" id="email" placeholder="Ingrese un email ..." required>
+            </div>
+            <div class="campos">
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="" id="telefono" placeholder="Ingrese un telefono ..." required>
+            </div>
+            <div class="campos">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Ingrese un mensaje ..."
+                    required></textarea>
+            </div>
+        </fieldset>
+        <fieldset class="pais">
+            <legend>Pais</legend>
+            <div class="paises">
+                <label for="">Paises</label>
+                <select name="paises" id="">
+                    <option value="">--Seleccione un pais--</option>
+                    <option value="ar">Argentina</option>
+                    <option value="br">Brasil</option>
+                    <option value="ch">Chile</option>
+                    <option value="pe">Peru</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset class="extra">
+            <legend>Informacion Extra</legend>
+            <div class="clientes">
+                <label for="cliente">Cliente</label>
+                <input type="radio" id="cliente" name="tipo-cliente" value="cliente" required>
+                <label for="proveedor">Proveedor</label>
+                <input type="radio" id="proveedor" name="tipo-cliente" value="proveedor" required>
+            </div>
+            <div class="categoria">
+                <label for="categoria">Categoria de interes</label>
+                <input list="categorias" placeholder="Ingrese un categoria...">
+                <datalist id="categorias">
+                    <option value="Cocina">
+                    <option value="Exterior">
+                    <option value="Living">
+                    <option value="Oficina">
+                    <option value="Television">
+                </datalist>
+            </div>
+        </fieldset>
+        <div class="contenedor-central">
+
+            <input type="submit" name="submit" id="enviar" value="Enviar formulario">
+        </div>
+    </form>
+    <script src="../Js/script.js"></script>
+
+    <hr>
+    <footer class="contenedor-central2">
+        <nav class="contenedor-nav">
+            <div class="navegador">
+                <h3>Categorias</h3>
+                <a href="">Cocina</a>
+                <a href="">Oficina</a>
+                <a href="">Jardin</a>
+                <a href="">Cochera</a>
+            </div>
+            <div class="navegador">
+                <h3>Sobre nosotros</h3>
+                <a href="">Nuestra historia</a>
+                <a href="">Mision, vision y valores</a>
+                <a href="">Carreras</a>
+                <a href="">Politicas de privacidad</a>
+                <a href="">Terminos de servicio</a>
+            </div>
+            <div class="navegador">
+                <h3>Soporte</h3>
+                <a href="">Preguntas frecuentes</a>
+                <a href="">Ayuda en linea</a>
+                <a href="">Confianza y seguridad</a>
+            </div>
+        </nav>
+    </footer>
+    <hr>
+</body>
+
+</html>

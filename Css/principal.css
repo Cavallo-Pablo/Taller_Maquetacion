@@ -1,0 +1,53 @@
+@import url(../Css/global.css);
+
+
+.contenedor-central h1{
+    color: black;
+}
+.contenedor-central span{
+    color: rgb(163, 153, 4);
+}
+.contenedor-central h1:hover{
+    color: rgb(163, 153, 4);
+
+}
+.contenedor-central span:hover{
+    color: black;
+}
+
+
+hr {
+    border: .1rem solid rgb(red, green, blue);
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.contenedor-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor-nav {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.hero {
+    background-image: url(../Imagen/interior-2685521_1920.jpg);
+    height: 18rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    background-size:cover;
+    border: .2rem outset rgb(221, 207, 5);
+}

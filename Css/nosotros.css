@@ -1,0 +1,62 @@
+@import url(../Css/global.css);
+
+.titulo {
+    text-align: center;
+}
+
+.lista-productos {
+    display: flex;
+    gap: 3rem;
+}
+
+.contenedora {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.producto img{
+    border: .2rem outset rgb(221, 207, 5);
+}
+
+
+.producto a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-bottom-right-radius: .7rem;
+}
+
+.producto a:hover {
+    background-color:#ddcf05;
+    color: #f8f8ee;
+    transition: all .3s ease;
+    font-weight: bolder;
+}
+
+.contenedora_2 {
+    display: flex;
+    margin: 2rem 0;
+
+}
+
+.imagen {
+    flex: 50%;
+    height: 20rem;
+    object-fit: cover;
+    width: 100%;
+}
+
+.texto {
+    flex: 50%;
+    background-color:#dad04d86;
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+    border: .2rem outset rgb(221, 207, 5);
+}

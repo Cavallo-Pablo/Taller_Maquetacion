@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Gloria+Hallelujah&family=Lobster&family=Merienda:wght@300;400;500;600;700;800;900&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    box-sizing: content-box;
+    background-image: url(../Imagen/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+*,
+*:before *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+/*     font-family: 'Croissant One', cursive; */
+/*     font-family: 'Gloria Hallelujah', cursive; */
+/*     font-family: 'Lobster', cursive;/*  */
+     font-family: 'Merienda', cursive;
+/*     font-family: 'Playfair Display SC', serif; */
+}
+
+.contenedor-central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor-enlaces a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(24, 3, 100);
+    font-style: bold;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+span {
+    color: rgb(51, 255, 0);
+}
+
+.enlace {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.contenedor-central2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+
+}
+
+.contenedor-central2 h3 {
+    text-align: center;
+}
+
+.contenedor-nav {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.navegador {
+    display: flex;
+    flex-direction: column;
+}
+
+.navegador a {
+    text-decoration: none;
+    color: black;
+
+}
+
+hr {
+    border: .2rem outset rgb(221, 207, 5);
+}

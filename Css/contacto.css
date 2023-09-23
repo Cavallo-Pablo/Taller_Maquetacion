@@ -1,0 +1,135 @@
+@import url(../Css/global.css);
+
+.contenedor-central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-enlaces a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    /*     color: rgb(129, 108, 206); */
+    font-style: bold;
+}
+
+.contenedor-enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    background-color: #dad04d86;
+    border: .2rem outset rgb(221, 207, 5)rgb(221, 207, 5);
+    color: rgb(0, 0, 0);
+    margin-bottom: .5rem;
+}
+
+legend {
+    width: 25rem;
+    height: 1.1rem;
+    background-color: #6e681386;
+    border-left-style: value;
+    color: rgb(252, 252, 252);
+    font-style: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid green;
+    padding-top: .2rem;
+}
+
+/*Tus datos*/
+
+.campos {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.contacto input,
+textarea {
+    display: block;
+    width: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    height: 5rem;
+}
+
+.contacto label {
+    width: 5rem;
+}
+
+textarea {
+    resize: none;
+}
+
+/*Pais*/
+
+.pais label,
+select {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pais label {
+    width: 4.5rem;
+}
+
+.pais select {
+    width: 15.5rem;
+}
+
+/*Informacion extra*/
+
+.clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.clientes label {
+    width: 4.5rem;
+}
+
+.clientes input {
+    position: relative;
+    bottom: 1.2rem;
+    left: 5rem;
+}
+
+/*Enviar formulario*/
+
+.contenedor-central input {
+    display: flex;
+    flex-direction: row;
+    /* position: absolute;
+    top: 37.5rem;
+    left: 5.2rem; */
+    justify-items: start;
+    color: white;
+    background-color: #8dbb00;
+    margin: .1rem 0 0 -19.7rem;
+    border: none;
+}
+.contenedor-central input:hover
+{
+    background-color: #485f04; 
+}
+.categoria input {
+    width: 14.5rem;
+}
+
+label {
+    display: inline-block;
+    width: 5rem;
+}
