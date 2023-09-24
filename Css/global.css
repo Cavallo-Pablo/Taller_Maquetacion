@@ -15,11 +15,11 @@ html {
 
 body {
     margin: 0;
-/*     font-family: 'Croissant One', cursive; */
-/*     font-family: 'Gloria Hallelujah', cursive; */
-/*     font-family: 'Lobster', cursive;/*  */
-     font-family: 'Merienda', cursive;
-/*     font-family: 'Playfair Display SC', serif; */
+    /*     font-family: 'Croissant One', cursive; */
+    /*     font-family: 'Gloria Hallelujah', cursive; */
+    /*     font-family: 'Lobster', cursive;/*  */
+    font-family: 'Merienda', cursive;
+    /*     font-family: 'Playfair Display SC', serif; */
 }
 
 .contenedor-central {
@@ -28,11 +28,19 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.contenedor-central,.contenedor-enlaces{
+
+.contenedor-central,
+.contenedor-enlaces {
     background-image: url(../Imagen/fondo.jpg);
-    
     position: sticky;
     top: 0;
+}
+
+.contenedor-enlaces {
+    height: 1.8rem;
+    padding: .3rem 0 0 0;
+    border: .2rem outset rgb(221, 207, 5);
+    margin-bottom: .1rem;
 }
 
 .contenedor-enlaces {
@@ -43,17 +51,21 @@ body {
 }
 
 .contenedor-enlaces a {
-        text-decoration: none;
+    text-decoration: none;
     font-size: 1.2rem;
     color: rgb(24, 3, 100);
     font-style: bold;
 
 }
-.enlace a:hover{
-    color: yellow;
-    background-color: rgb(20, 35, 163);
+
+.enlace a:hover {
+    color: #bbbb1d;
+    background-color: #3a3a0a;
     height: 100%;
-    border: .2rem outset rgb(221, 207, 5);
+    /* border: .2rem outset rgb(221, 207, 5); */
+    height: 1.8rem;
+    padding: .3rem 0 0 0;
+    margin-bottom: auto;
 }
 
 h1 {
@@ -104,6 +116,6 @@ span {
 
 }
 
-hr {
-    border: .2rem outset rgb(221, 207, 5);
-}
+/* hr {
+   
+} */
