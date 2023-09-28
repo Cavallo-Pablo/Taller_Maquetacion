@@ -3,22 +3,26 @@
 html {
     box-sizing: content-box;
     background-image: url(../Imagen/fondo.jpg);
-/*     filter: grayscale(80%); */
+    /*     filter: grayscale(80%); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.contenedor-central h1{
+
+.contenedor-central h1 {
     color: black;
 }
-.contenedor-central span{
+
+.contenedor-central span {
     color: rgb(163, 153, 4);
 }
-.contenedor-central h1:hover{
+
+.contenedor-central h1:hover {
     color: rgb(163, 153, 4);
 
 }
-.contenedor-central span:hover{
+
+.contenedor-central span:hover {
     color: black;
 }
 
@@ -26,6 +30,7 @@ html {
 *:before *:after {
     box-sizing: inherit;
 }
+
 .titulo {
     text-align: center;
 }
@@ -57,7 +62,7 @@ body {
 .contenedor-enlaces {
     height: 1.8rem;
     padding: .3rem 0 0 0;
-    border: .2rem outset rgb(221, 207, 5);    
+    border: .2rem outset rgb(221, 207, 5);
 }
 
 .contenedor-enlaces {
@@ -132,14 +137,17 @@ span {
     color: black;
 
 }
-.sin_Enlace{
+
+.sin_Enlace {
     background-color: #a39904;
     color: brown;
 }
-.sin_Enlace:hover{
+
+.sin_Enlace:hover {
     color: #f0ebaa;
     background-color: #855a0a;
 }
+
 /* hr {
    
 } */
