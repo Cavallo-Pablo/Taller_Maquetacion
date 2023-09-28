@@ -75,7 +75,7 @@ body {
 
 }
 
-.enlace a:hover {
+.enlace a:not(.sin_Enlace):hover {
     color: #bbbb1d;
     background-color: #3a3a0a;
     height: 100%;
@@ -132,7 +132,9 @@ span {
     color: black;
 
 }
-
+.sin_Enlace{
+    background-color: turquoise;
+}
 /* hr {
    
 } */
