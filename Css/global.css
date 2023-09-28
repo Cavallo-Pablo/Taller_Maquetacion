@@ -136,6 +136,10 @@ span {
     background-color: #a39904;
     color: brown;
 }
+.sin_Enlace:hover{
+    background-color: rgb(155, 80, 11);
+    color: #a39904;
+}
 /* hr {
    
 } */
