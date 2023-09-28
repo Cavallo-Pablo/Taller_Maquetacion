@@ -1,8 +1,6 @@
 @import url(../Css/global.css);
 
-.titulo {
-    text-align: center;
-}
+
 
 .lista-productos {
     display: flex;

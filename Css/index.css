@@ -1,19 +1,6 @@
 @import url(../Css/global.css);
 
 
-.contenedor-central h1{
-    color: black;
-}
-.contenedor-central span{
-    color: rgb(163, 153, 4);
-}
-.contenedor-central h1:hover{
-    color: rgb(163, 153, 4);
-
-}
-.contenedor-central span:hover{
-    color: black;
-}
 
 
 hr {

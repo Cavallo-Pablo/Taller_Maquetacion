@@ -3,15 +3,31 @@
 html {
     box-sizing: content-box;
     background-image: url(../Imagen/fondo.jpg);
-    filter: grayscale(80%);
+/*     filter: grayscale(80%); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.contenedor-central h1{
+    color: black;
+}
+.contenedor-central span{
+    color: rgb(163, 153, 4);
+}
+.contenedor-central h1:hover{
+    color: rgb(163, 153, 4);
+
+}
+.contenedor-central span:hover{
+    color: black;
 }
 
 *,
 *:before *:after {
     box-sizing: inherit;
+}
+.titulo {
+    text-align: center;
 }
 
 body {
